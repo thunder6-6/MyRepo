@@ -1,0 +1,7 @@
+uncle_sam = float(1.08)
+pay_the_server = float(.115)
+food_stuff = float(input("How much was your meal? "))
+corporate_cut = float(uncle_sam * food_stuff)
+pocket_book_pain = float(corporate_cut * pay_the_server)
+total = round(float(pocket_book_pain * food_stuff), 2)
+print("You need to leave $" + str(total) + " on the table for the server.")
