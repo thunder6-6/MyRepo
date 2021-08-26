@@ -1,0 +1,7 @@
+var1 = int(input("Enter var1: "))
+var2 = int(input("Enter var2: "))
+var3 = (var1 + var2)
+var4 = (var1 - var2)
+var5 = (var1 * var2)
+var6 = (var1 / var2)
+print(var3,var4,var5,var6)
